@@ -1,20 +1,4 @@
 #!/usr/bin/env python3
-"""
-ROR • Expectancy • RR–WinRate — GUI Toolkit (Polished Dark Theme, Colorbar-Fix)
-Author: You + ChatGPT
-
-Features:
-- Modern dark theme with "card" panels and accent buttons
-- RR vs Win-Rate plot (breakeven curve + your point)
-- Expectancy heatmap (single persistent colorbar; no duplicates)
-- Monte-Carlo sample equity curves (fixed-fraction compounding)
-- Ending-equity histogram + key stats
-- Scroll-wheel zoom-to-cursor on any subplot
-- File → Save Charts (PNG) and Export CSV
-
-Requirements: Python 3.9+, numpy, matplotlib
-pip install numpy matplotlib
-"""
 
 import sys
 import math
@@ -720,3 +704,4 @@ if __name__ == "__main__":
     except Exception as e:
         print("Fatal error:", e, file=sys.stderr)
         sys.exit(1)
+
